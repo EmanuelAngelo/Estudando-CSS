@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.box {
+    width: 80%;
+    margin: auto;
+}
+
+.container {
+    
+    background-color: saddlebrown;
+    color: seashell;
+    width: 80%;
+    
+    /*
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+     Mesma coisa que acima*/
+    margin: auto;
+    /*
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    Mesma coisa que cima */
+    padding: 10px;
+    
+    border: 3px solid red;
+}
+
+.main-aside h2 {
+    text-align: center;
+}
+
+.main-aside ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.main-aside ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.main-aside ul a:hover {
+    color: brown;
+}
+
+.main-aside ul a:visited {
+    color: chartreuse;
+}
+
+/* Formularios*/
+
+.main-form {
+    padding-left: 20px;
+}
+
+.main-form .form-group {
+    padding-bottom: 10px;
+}
+
+.main-form .form-group input {
+    padding: 10px;
+    width: 100%;
+}
+
+.main-form .form-group label {
+    display: block;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+}
