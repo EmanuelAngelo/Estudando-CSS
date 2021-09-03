@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Fixed</title>
+    <style>
+        .container {
+            height: 1200px;
+        }
+        .fixed {
+            position: fixed;
+            top: 0;
+            width: 300px;
+            border: 3px solid #73ad21;
+        }
+    </style>
+</head>
+<body>
+    <h2>position: fixed;</h2>
+    <p>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same placeholder
+        even if the page is scrolled:
+    </p>
+    <div class="container">
+        <div class="fixed">
+            this div elemente has position: fixed;
+        </div>
+
+    </div>
+</body>
+</html>
